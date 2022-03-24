@@ -1,0 +1,59 @@
+/*
+#EBEDF2  <- blanc
+#ACB0F2  <- bleu-violet clair
+#4B50BF  <- bleu
+#231773  <- bleu foncès
+#6E30F2  <- blurple
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    position: relative;
+    widows: 100%;
+    min-height: 100vh;
+    background: #EBEDF2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ACB0F2;
+    clip-path: polygon(30% 0, 100% 0, 100% 100%, 65% 100%);
+    animation: fade-in 0.5s ease-in forwards;
+    animation-delay: 1.5s;
+}
+
+section .content {
+    position: relative;
+    padding: 100px 50px 100px 100px;
+    box-sizing: border-box;
+}
+section .content h2 {
+    color: #231773;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+section .content h3 {
+    color: #4B50BF;
+}
+
+section .content p {
+    color: #231773;
+    font-size: 1.2em;
+}
