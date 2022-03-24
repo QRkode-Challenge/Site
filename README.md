@@ -1,4 +1,4 @@
 # Site
 
 
-Page pour expliquer le fi=onctionnement d'un projet
+Page pour expliquer le fonctionnement d'un projet avec des QR Codes
